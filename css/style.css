@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid red;
+}
+
+.container{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.nav{
+    margin-right: 60px;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.nav a:hover{
+    color:rgb(0, 132, 255);
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+#sub--menu{
+    display: none;
+    margin: 20px;
+    
+}
+
+.nav a:hover #sub--menu{
+    display: block;
+    position: absolute;
+    margin: 10px;
+    background-color: red;
+
+}
+
+.nav a:hover #sub--menu a{
+    display: block;
+    margin: 10px;
+}
+
+
+/* ****************************************************************************************************************** */
+
+.main-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+.text h1{
+    font-size: 60px;
+    margin: 20px 0px;
+}
+
+.text p{
+    font-size: 15px;
+    margin: 20px 0px;
+    
+}
+
+.btn1 button{
+    width: 150px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+
+.btn1 button a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-img img{
+    filter: drop-shadow(2px 2px 40px rgb(243, 191, 209));
+
+}
+
+
+.btn1 button:hover{
+    background-color: rgb(9, 8, 117);
+    
+
+}
+
+
+/* ***********featured categories******************** */
+
+.categories{
+    margin: 50px 100px ;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+
+
+/* ***********************featured product***************** */
+
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 150px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title::after{
+    content: "";
+    background-color: rgb(0, 132, 255);;
+    width: 120px;
+    height: 5px;
+    position: absolute;
+    margin: 0px 0px 0px -63px;
+}
+
+.star{
+    color:rgb(0, 132, 255);
+}
+
+
+
+.product1:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    
+}
+
+
+
+/* ***********************smart watch********************* */
+
+.exclusive-offer{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.smart-watch{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+
+}
+
+.smart-watch h1{
+    font-size: 70px;
+}
+
+#btn2{
+    width: 150px;
+    height: 40px;
+    background-color:rgb(0, 132, 255);
+    border-radius: 20px;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+    margin-top: 20px;
+}
+
+#btn2:hover{
+    background-color: rgb(9, 8, 117);
+}
+
+
+
+/* *************************************************testimonial********************* */
+
+
+.testimonial{
+    display: flex;
+    margin: 70px 0px;
+    justify-content: space-around;
+
+}
+
+.reviews{
+    margin-top: 90px;
+}
+
+.person{
+    background: radial-gradient(#fff,#f5efef);
+    width: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 20px rgb(163, 182, 238);
+    border-radius: 40px;
+    text-align: center;
+    
+
+    
+
+}
+
+.person h2{
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.person:hover{
+    transform: scale(1.02);
+
+}
+
+.person img{
+    margin-top: -40px;
+}
+
+#rating1{
+    margin-top: -80px;
+    margin-left: -20px;
+}
+
+#rating2{
+    margin-top: -80px;
+    margin-left: -20px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+
+
+/* *********************************************brands*************************************** */
+
+.brands{
+    display: flex;
+    justify-content: center;
+}
+
+.brands img{
+    filter: grayscale(100%);
+}
+
+.brands img:hover{
+    filter: grayscale(0%);
+}
+
+
+/* ****************************************footer************************************************* */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+.app h1{
+    margin-top: 40px;
+}
+
+.app p{
+    padding-top: 10px;
+}
+
+.app img{
+    margin-top:-40px ;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links a{
+    color: white;
+    padding: 10px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.address a{
+    color: white;
+    padding: 10px;
+}
+
+.address a:hover{
+    color:rgb(0, 132, 255) ;
+}
+
+
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.social-media a{
+    color: white;
+    padding: 10px;
+}
+
+
+.footer a:hover{
+
+    color: rgb(0, 132, 255);
+
+}
+
+/* ***************************copyright******************************** */
+
+.copyright{
+    background-color: black;
+    height: 40px;
+}
+
+.line{
+    color: white;
+    margin: 0px 100px;
+    
+    
+}
+
+.last-text p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    
+}
