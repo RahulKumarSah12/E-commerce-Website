@@ -8,7 +8,6 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
-    border: 2px solid red;
 }
 
 .container{
@@ -214,7 +213,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 2px 2px 20px rgb(163, 182, 238);
+    box-shadow: 4px 4px 20px rgb(218, 225, 245);
     border-radius: 40px;
     text-align: center;
     
